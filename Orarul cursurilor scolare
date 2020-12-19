@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Orarul cursurilor scolare</title>
+    </head>
+    <body>
+        <h1 align="center">Orarul cursurilor școlare</h1>
+        <table border="1" align="center">
+            <tr>
+                <th>Nr.crt.</th>
+                <th>Luni</th>
+                <th>Marti</th>
+                <th>Miercuri</th>
+                <th>Joi</th>
+                <th>Vineri</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td>Chimie</td>
+                <td>Economie</td>
+                <td>Geografie</td>
+                <td>Economie</td>
+                <td rowspan="2">Biologie</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>Matematica</td>
+                <td>Istorie</td>
+                <td>Biologie</td>
+                <td>Istorie</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>Geografie</td>
+                <td>Limba Romana</td>
+                <td>Chimie</td>
+                <td>Limba Romana</td>
+                <td>Chimie</td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td>Biologie</td>
+                <td>Limba Engleza</td>
+                <td rowspan="2">Informatica</td>
+                <td>Limba Engleza</td>
+                <td rowspan="2">Sport</td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td>Fizica</td>
+                <td>Limba Franceza</td>
+                <td>Limba Franceza</td>
+            </tr>
+
+        </table>
+    </body>
+</html>
